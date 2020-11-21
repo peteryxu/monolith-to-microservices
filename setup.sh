@@ -14,26 +14,26 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 printf "Checking for required npm version..."
-npm install -g npm > ~/monolith-to-microservices/logs/npm.txt 2>&1
+npm install -g npm > ~/CODE/Repo-GithubNEW/monolith-to-microservices/logs/npm.txt 2>&1
 printf "Completed.\n"
 
 printf "Installing monolith dependencies..."
 cd ./monolith
-npm install > ~/monolith-to-microservices/logs/monolith.txt 2>&1
+npm install > ~/CODE/Repo-GithubNEW/monolith-to-microservices/logs/monolith.txt 2>&1
 printf "Completed.\n"
 
 printf "Installing microservies dependencies..."
 cd ../microservices
-npm install > ~/monolith-to-microservices/logs/microservices.txt 2>&1
+npm install > ~/CODE/Repo-GithubNEW/monolith-to-microservices/logs/microservices.txt 2>&1
 printf "Completed.\n"
 
 printf "Installing React app dependencies..."
 cd ../react-app
-npm install > ~/monolith-to-microservices/logs/react.txt 2>&1
+npm install > ~/CODE/Repo-GithubNEW/monolith-to-microservices/logs/react.txt 2>&1
 printf "Completed.\n"
 
 printf "Building React app and placing into sub projects..."
-npm run build > ~/monolith-to-microservices/logs/build.txt 2>&1
+npm run build > ~/CODE/Repo-GithubNEW/monolith-to-microservices/logs/build.txt 2>&1
 printf "Completed.\n\n"
 
 printf "Script completed successfully!\n"

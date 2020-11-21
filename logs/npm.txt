@@ -1,4 +1,29 @@
-/usr/local/nvm/versions/node/v10.14.2/bin/npm -> /usr/local/nvm/versions/node/v10.14.2/lib/node_modules/npm/bin/npm-cli.js
-/usr/local/nvm/versions/node/v10.14.2/bin/npx -> /usr/local/nvm/versions/node/v10.14.2/lib/node_modules/npm/bin/npx-cli.js
-+ npm@6.14.9
-updated 1 package in 7.3s
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/fast-deep-equal
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/co
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/json-schema-traverse
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/ajv
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/har-validator
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules/npm-user-validate
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm
+npm WARN checkPermissions Missing write access to /usr/local/lib/node_modules/npm/node_modules
+npm ERR! code EACCES
+npm ERR! syscall access
+npm ERR! path /usr/local/lib/node_modules/npm/node_modules/fast-deep-equal
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, access '/usr/local/lib/node_modules/npm/node_modules/fast-deep-equal'
+npm ERR!  [Error: EACCES: permission denied, access '/usr/local/lib/node_modules/npm/node_modules/fast-deep-equal'] {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'access',
+npm ERR!   path: '/usr/local/lib/node_modules/npm/node_modules/fast-deep-equal'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/peteryxuus.ibm.com/.npm/_logs/2020-11-21T20_02_44_720Z-debug.log

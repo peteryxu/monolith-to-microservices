@@ -1,7 +1,7 @@
-# Docs
+# Docs: deploy monolith
 https://codelabs.developers.google.com/codelabs/cloud-deploy-website-on-gke#10
 
-##
+## Deploy monolith web site
 
 ### create
 gcloud container clusters create fancy-cluster --num-nodes 2
@@ -67,6 +67,10 @@ gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/monolith:2.0.0 .
 
 //update image 
 kubectl set image deployment/monolith monolith=gcr.io/${GOOGLE_CLOUD_PROJECT}/monolith:2.0.0
+
+
+# Deploy microservices
+https://codelabs.developers.google.com/codelabs/cloud-monolith-to-microservices-gke#0
 
 
 

@@ -38,7 +38,7 @@ export default function Home() {
         </Typography>
         <br />
         <Typography variant="body1">
-          11/21a: Tired of mainstream fashion ideas, popular trends and societal norms?
+          11/21d: Tired of mainstream fashion ideas, popular trends and societal norms?
           This line of lifestyle products will help you catch up with the Fancy trend and express your personal style.
           Start shopping Fancy items now!
         </Typography>
